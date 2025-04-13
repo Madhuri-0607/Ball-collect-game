@@ -15,6 +15,10 @@ A thrilling 3D game using Three.js! Navigate a cosmic arena, collect star orbs, 
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
+- Video
+
+https://github.com/user-attachments/assets/c24de854-14fe-4a57-906c-b2a203e87ee1
+
 ## Features
 - **Core Gameplay**: Collect regular orbs (+1 point) and golden orbs (+2 points) to score 10+ points before time runs out.
 - **Power-Ups**: Speed boosts and time freezes enhance your strategy.
@@ -65,9 +69,7 @@ Acknowledgments
 Three.js for powering the 3D experience.
 Inspired by classic arcade collection games with a cosmic theme.
 
-Video
 
-https://github.com/user-attachments/assets/c24de854-14fe-4a57-906c-b2a203e87ee1
 
 
 
