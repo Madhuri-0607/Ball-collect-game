@@ -65,6 +65,11 @@ Acknowledgments
 Three.js for powering the 3D experience.
 Inspired by classic arcade collection games with a cosmic theme.
 
+Video
+
+https://github.com/user-attachments/assets/c24de854-14fe-4a57-906c-b2a203e87ee1
+
+
 
 
 
