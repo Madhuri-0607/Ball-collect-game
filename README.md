@@ -44,14 +44,7 @@ https://github.com/user-attachments/assets/c24de854-14fe-4a57-906c-b2a203e87ee1
 
    2.Run the Game:
 Open index.html in a modern browser (Chrome, Firefox, Edge).
-For best performance, use a local server:
-bash
-
-Collapse
-
-Wrap
-
-Copy
+For best performance, use a local server: 
 python -m http.server 8000
 Then visit http://localhost:8000.
 Note: An internet connection is required only for the initial load of Three.js and OrbitControls .
