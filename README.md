@@ -47,7 +47,7 @@ SCREENSHOT!!
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/your-username/Orb Collector.git
-   cd ball-collect-game
+   cd Orb Collector
 
 
    2.Run the Game:
