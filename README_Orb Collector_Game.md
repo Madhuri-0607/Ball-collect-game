@@ -1,6 +1,6 @@
-# 🎮 Ball Collect Game
+# 🎮Orb Collector Game
 
-**Ball Collect Game** is a fun and simple web-based game created using **HTML**, **CSS**, and **JavaScript**. This game is perfect for beginners to understand how web technologies can be used to make interactive and dynamic applications like games.
+**Orb Collector Game** is a fun and simple web-based game created using **HTML**, **CSS**, and **JavaScript**. This game is perfect for beginners to understand how web technologies can be used to make interactive and dynamic applications like games.
 
 ---
 
@@ -77,5 +77,6 @@ Hi! I'm **Madhuri**, a frontend web developer passionate about building interact
 - **LinkedIn Profile:** [linkedin.com/in/madhuri-0607](https://www.linkedin.com/in/madhuri-0607)
 
 ---
+
 
 
