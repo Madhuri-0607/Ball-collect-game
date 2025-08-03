@@ -1,6 +1,6 @@
 # 🎮 Ball Collect Game
 
-**Ball Collect Game** is a fun and simple web-based game created using **HTML**, **CSS**, and **JavaScript**. This game is perfect for beginners to understand how web technologies can be used to make interactive applications like games.
+**Ball Collect Game** is a fun and simple web-based game created using **HTML**, **CSS**, and **JavaScript**. This game is perfect for beginners to understand how web technologies can be used to make interactive and dynamic applications like games.
 
 ---
 
@@ -15,6 +15,15 @@ In this game, the player controls a character (or object) on the screen and trie
 - **HTML** – to build the structure of the game
 - **CSS** – to design how the game looks
 - **JavaScript** – to add logic, control the game, and make it interactive
+
+---
+
+## 🌟 Features
+
+- **🎯 Responsive Design** – Playable on both desktop and mobile screens
+- **⚡ Dynamic Gameplay** – Balls appear in different positions with real-time player movement
+- **🎮 Interactive Controls** – Move the player using keyboard keys
+- **📈 Score Tracking** – Your score increases with every collected ball
 
 ---
 
@@ -33,21 +42,10 @@ In this game, the player controls a character (or object) on the screen and trie
 
 ---
 
-## 💡 What You Will Learn
 
-This project helps beginners learn:
+## 📷 Screenshots
 
-- How a webpage is structured using HTML
-- How to style a page and game objects using CSS
-- How to make things move and respond using JavaScript
-- How to detect collisions (when the player touches the ball)
-
----
-
-![alt text](image.png)
-
-
-
+![alt text](image-1.png)
 
 ---
 
@@ -69,7 +67,7 @@ This project helps beginners learn:
 
 ## 🙋‍♀️ About Me
 
-Hi! I'm **Madhuri**, a frontend web developer passionate about building interactive websites and applications using HTML, CSS, and JavaScript.
+Hi! I'm **Madhuri**, a frontend web developer passionate about building interactive, dynamic, and responsive web applications using HTML, CSS, and JavaScript.
 
 ---
 
