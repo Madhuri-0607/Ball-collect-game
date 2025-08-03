@@ -1,10 +1,10 @@
-# Ball-collect-game
-Ball Collect Game — A responsive, dynamic, and beginner-friendly 3D browser game built with HTML, CSS, and JavaScript.
+# Orb Collector
+Orb Collector Game — A responsive, dynamic, and beginner-friendly 3D browser game built with HTML, CSS, and JavaScript.
 Control your player, collect moving balls, and boost your score in this interactive web-based game. Designed with real-time gameplay and sleek visuals, it’s perfect for showcasing core frontend skills and simple 3D effects using CSS.
 
-# Ball Collect Game
+# Orb Collector
 
-Ball Collect Game — A responsive, dynamic, and beginner-friendly 3D browser game built with HTML, CSS, and JavaScript.
+Orb Collector Game — A responsive, dynamic, and beginner-friendly 3D browser game built with HTML, CSS, and JavaScript.
 Control your player, collect moving balls, and boost your score in this interactive web-based game. Designed with real-time gameplay and sleek visuals, it’s perfect for showcasing core frontend skills and simple 3D effects using CSS..
 
 ## Table of Contents
