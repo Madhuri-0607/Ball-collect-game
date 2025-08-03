@@ -4,7 +4,8 @@ Control your player, collect moving balls, and boost your score in this interact
 
 # Ball Collect Game
 
-A thrilling 3D game using Three.js! Navigate a cosmic arena, collect star orbs, avoid obstacles, and grab power-ups in 60 seconds. Enjoy starry visuals, particle effects, and Web Audio sounds. Use WASD or buttons, build combos, and aim high in this arcade adventure.
+Ball Collect Game — A responsive, dynamic, and beginner-friendly 3D browser game built with HTML, CSS, and JavaScript.
+Control your player, collect moving balls, and boost your score in this interactive web-based game. Designed with real-time gameplay and sleek visuals, it’s perfect for showcasing core frontend skills and simple 3D effects using CSS..
 
 ## Table of Contents
 - [Features](#features)
