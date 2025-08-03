@@ -7,24 +7,26 @@
     border-radius: 24px;
     box-shadow: 0 8px 40px 0 rgba(0,255,255,0.18), 0 1.5px 8px 0 rgba(0,0,0,0.12);
     padding: 32px 40px;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.7;
     text-align: left;
     border: 2px solid rgba(0,255,255,0.18);
     backdrop-filter: blur(12px) saturate(120%);
     transition: box-shadow 0.3s;
+    width: 90vw;
+    box-sizing: border-box;
 }
 #instructions h2 {
     color: #00fff5;
     margin-top: 0;
-    font-size: 2.1rem;
+    font-size: 1.4rem;
     letter-spacing: 1.5px;
     text-shadow: 0 2px 12px rgba(0,255,255,0.25);
 }
 #instructions ul {
     margin-bottom: 16px;
     padding-left: 22px;
-    font-size: 1.08em;
+    font-size: 0.98em;
 }
 .powerup-speed {
     color: #ff5e3a;
@@ -62,12 +64,13 @@ body {
 #game-container {
     position: relative;
     width: 100%;
-    min-height: 650px;
+    min-height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     padding-bottom: 40px;
+    box-sizing: border-box;
 }
 
 canvas {
@@ -77,13 +80,16 @@ canvas {
     border-radius: 18px;
     box-shadow: 0 6px 32px rgba(0,255,255,0.10), 0 1.5px 8px 0 rgba(0,0,0,0.10);
     margin-top: 18px;
+    max-width: 100vw;
+    max-height: 60vh;
 }
 
 /* UI and buttons */
 #ui {
     position: absolute;
     top: 24px;
-    width: 100%;
+    left: 0;
+    width: 100vw;
     text-align: center;
     color: #fff;
     font-size: 26px;
@@ -92,6 +98,7 @@ canvas {
     text-shadow: 0 2px 16px rgba(0, 255, 255, 0.45);
     letter-spacing: 1.2px;
     user-select: none;
+    box-sizing: border-box;
 }
 
 .btn {
@@ -140,7 +147,7 @@ canvas {
     background: rgba(20, 40, 80, 0.82);
     padding: 48px 32px;
     text-align: center;
-    font-size: 2.1rem;
+    font-size: 1.2rem;
     color: #fff;
     border-radius: 32px;
     box-shadow: 0 0 60px rgba(0, 255, 255, 0.22), 0 2px 12px rgba(0,0,0,0.18);
@@ -195,18 +202,20 @@ canvas {
 #score-display {
     position: absolute;
     top: 28px;
-    right: 32px;
+    right: 4vw;
     background: rgba(10, 25, 47, 0.82);
-    padding: 18px 32px;
-    border-radius: 32px;
+    padding: 8px 16px;
+    border-radius: 16px;
     color: #00fff5;
-    font-size: 22px;
+    font-size: 16px;
     z-index: 10;
     transition: transform 0.3s cubic-bezier(.4,2,.6,1), box-shadow 0.3s;
     box-shadow: 0 2px 16px rgba(0,255,255,0.18);
     border: 1.5px solid rgba(0,255,255,0.18);
     letter-spacing: 1.1px;
     user-select: none;
+    min-width: 80px;
+    box-sizing: border-box;
 }
 
 #score-display.animate {
@@ -217,7 +226,7 @@ canvas {
 #time-progress {
     position: absolute;
     top: 72px;
-    width: 80%;
+    width: 80vw;
     max-width: 420px;
     left: 50%;
     transform: translateX(-50%);
@@ -226,6 +235,7 @@ canvas {
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 1.5px 8px rgba(0,255,255,0.10);
+    min-width: 120px;
 }
 
 #time-bar {
@@ -239,30 +249,136 @@ canvas {
 #powerup-indicators {
     position: absolute;
     top: 120px;
-    left: 32px;
+    left: 4vw;
     color: #00fff5;
-    font-size: 20px;
+    font-size: 18px;
     z-index: 10;
     letter-spacing: 1px;
     text-shadow: 0 1.5px 8px rgba(0,255,255,0.13);
+    min-width: 80px;
+    box-sizing: border-box;
 }
 
 /* Score popups */
 .score-popup {
     position: absolute;
     color: #ffe066;
-    font-size: 28px;
+    font-size: 18px;
     font-weight: bold;
     text-shadow: 0 2px 12px rgba(0, 0, 0, 0.32);
     pointer-events: none;
     z-index: 20;
     transition: all 0.5s cubic-bezier(.4,2,.6,1);
     animation: popupFade 0.7s cubic-bezier(.4,2,.6,1);
+    padding: 2px 8px;
+    border-radius: 10px;
+    min-width: 40px;
+    box-sizing: border-box;
 }
 
 @keyframes popupFade {
     0% { opacity: 0; transform: translateY(20px) scale(0.95); }
     60% { opacity: 1; transform: translateY(-10px) scale(1.08); }
     100% { opacity: 0; transform: translateY(-30px) scale(1); }
+}
+
+/* Responsive styles */
+@media (max-width: 900px) {
+    #instructions {
+        padding: 20px 12px;
+        font-size: 15px;
+        max-width: 98vw;
+    }
+    #game-container {
+        min-height: 320px;
+    }
+    canvas {
+        margin-top: 10px;
+        max-height: 40vh;
+    }
+    #ui {
+        font-size: 18px;
+        top: 12px;
+    }
+    #score-display {
+        top: 12px;
+        right: 2vw;
+        font-size: 13px;
+        padding: 6px 10px;
+    }
+    #time-progress {
+        top: 44px;
+        min-width: 80px;
+        height: 8px;
+    }
+    #powerup-indicators {
+        top: 70px;
+        left: 2vw;
+        font-size: 14px;
+    }
+    .score-popup {
+        font-size: 13px;
+        padding: 1px 4px;
+    }
+}
+
+@media (max-width: 600px) {
+    #instructions {
+        padding: 10px 4px;
+        font-size: 13px;
+        max-width: 100vw;
+        margin: 12px auto 10px auto;
+    }
+    #game-container {
+        min-height: 180px;
+        padding-bottom: 10px;
+    }
+    canvas {
+        margin-top: 4px;
+        max-height: 28vh;
+        border-radius: 8px;
+    }
+    #ui {
+        font-size: 12px;
+        top: 4px;
+    }
+    #score-display {
+        top: 4px;
+        right: 1vw;
+        font-size: 10px;
+        padding: 3px 6px;
+        border-radius: 8px;
+    }
+    #time-progress {
+        top: 24px;
+        min-width: 40px;
+        height: 5px;
+        border-radius: 3px;
+    }
+    #powerup-indicators {
+        top: 38px;
+        left: 1vw;
+        font-size: 10px;
+    }
+    .score-popup {
+        font-size: 9px;
+        padding: 0 2px;
+        border-radius: 4px;
+    }
+    #overlay {
+        padding: 12px 2px;
+        font-size: 0.8rem;
+        border-radius: 12px;
+        max-width: 98vw;
+    }
+    #startBtn {
+        padding: 10px 18px;
+        font-size: 1rem;
+        border-radius: 18px;
+    }
+    #endBtns, #pauseMenu {
+        gap: 8px;
+        margin-top: 10px;
+    }
 }
 }
