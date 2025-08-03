@@ -46,7 +46,7 @@ SCREENSHOT!!
 ## Installation
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/ball-collect-game.git
+   git clone https://github.com/your-username/Orb Collector.git
    cd ball-collect-game
 
 
